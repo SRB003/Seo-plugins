@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__offpage-mcp-server",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🔗 SEO Offpage: Offpage data updated. Run /seo-offpage:audit-backlinks or /seo-offpage:competitor-backlinks for a full overview.'"
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__gmail",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📧 Email Action: Gmail was used. If this was a PR pitch or mention outreach, ensure it is logged in the offpage pipeline.'"
+          }
+        ]
+      }
+    ]
+  }
+}

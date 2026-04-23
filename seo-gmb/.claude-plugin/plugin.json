@@ -1,0 +1,20 @@
+{
+  "name": "seo-gmb",
+  "version": "1.0.0",
+  "description": "Google Business Profile (GMB) optimization plugin. Automated profile auditing, post scheduling, review management, citation consistency, local schema markup, and local ranking tracking. Works with Supabase, Gmail, and Google Calendar MCPs.",
+  "author": {
+    "name": "EBR Agency",
+    "url": "https://ebr.agency"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gmb",
+    "google-business-profile",
+    "local-seo",
+    "local-pack",
+    "reviews",
+    "citations",
+    "nap-consistency",
+    "google-maps"
+  ]
+}

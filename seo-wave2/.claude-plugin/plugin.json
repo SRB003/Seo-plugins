@@ -1,0 +1,20 @@
+{
+  "name": "seo-wave2",
+  "version": "1.0.0",
+  "description": "SEO Wave 2 — Content Engine plugin. Keyword research, content brief generation, AI content drafting, SEO scoring, and auto-publish to Webflow CMS. Works with Webflow, Supabase, Gmail, and Google Calendar MCPs.",
+  "author": {
+    "name": "EBR Agency",
+    "url": "https://ebr.agency"
+  },
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "keyword-research",
+    "content-strategy",
+    "content-brief",
+    "ai-writing",
+    "webflow-cms",
+    "supabase",
+    "content-calendar"
+  ]
+}

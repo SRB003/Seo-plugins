@@ -1,0 +1,19 @@
+{
+  "name": "seo-wave1",
+  "version": "1.0.0",
+  "description": "Automated SEO Wave 1 plugin — technical auditing, on-page optimization, schema markup, and bulk Webflow updates. Uses Webflow MCP, Supabase MCP, and custom SEO analysis tools.",
+  "author": {
+    "name": "EBR Agency",
+    "url": "https://ebr.agency"
+  },
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "technical-audit",
+    "webflow",
+    "on-page-optimization",
+    "schema-markup",
+    "supabase",
+    "automation"
+  ]
+}

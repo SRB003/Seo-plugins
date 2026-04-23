@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__webflow",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📝 Content Pipeline: Webflow CMS was updated. Consider running /seo-wave2:score on the affected page to verify SEO quality.'"
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__supabase",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📊 Pipeline Updated: Supabase data was modified. Run /seo-wave2:pipeline to see current status.'"
+          }
+        ]
+      }
+    ]
+  }
+}

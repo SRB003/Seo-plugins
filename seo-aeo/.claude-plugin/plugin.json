@@ -1,0 +1,8 @@
+{
+  "name": "seo-aeo",
+  "version": "1.0.0",
+  "description": "Answer Engine Optimization (AEO) plugin. Optimize content to be cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews, Gemini). Featured snippet targeting, answer-first content structuring, AI citation tracking, and E-E-A-T signal enhancement.",
+  "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+  "license": "MIT",
+  "keywords": ["aeo", "answer-engine", "featured-snippets", "ai-citations", "zero-click", "chatgpt", "perplexity", "google-ai-overviews", "eeat"]
+}

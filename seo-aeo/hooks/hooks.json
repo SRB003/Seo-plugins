@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__aeo-mcp-server",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🤖 AEO: Answer engine data updated. Run /seo-aeo:audit to check AI visibility.'"
+          }
+        ]
+      }
+    ]
+  }
+}

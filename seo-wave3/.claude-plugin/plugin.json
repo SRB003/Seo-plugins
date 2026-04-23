@@ -1,0 +1,21 @@
+{
+  "name": "seo-wave3",
+  "version": "1.0.0",
+  "description": "SEO Wave 3 — Scale & Report plugin. Rank tracking, automated reporting, anomaly detection, outreach automation, and strategy recalibration. Works with Webflow, Supabase, Gmail, and Google Calendar MCPs.",
+  "author": {
+    "name": "EBR Agency",
+    "url": "https://ebr.agency"
+  },
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "rank-tracking",
+    "seo-reporting",
+    "anomaly-detection",
+    "backlink-monitoring",
+    "outreach",
+    "client-reports",
+    "supabase",
+    "gmail"
+  ]
+}

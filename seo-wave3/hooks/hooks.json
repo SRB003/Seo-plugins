@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__monitoring-mcp-server",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📡 SEO Monitor: Monitoring data updated. Run /seo-wave3:dashboard for a full overview.'"
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__gmail",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📧 Email Action: Gmail was used. If this was an outreach email, ensure it is logged in /seo-wave3:outreach pipeline.'"
+          }
+        ]
+      }
+    ]
+  }
+}

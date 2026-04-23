@@ -1,0 +1,21 @@
+// Types for SEO audit data structures
+export const SEO_CONSTANTS = {
+    TITLE_MIN_LENGTH: 30,
+    TITLE_MAX_LENGTH: 60,
+    DESCRIPTION_MIN_LENGTH: 120,
+    DESCRIPTION_MAX_LENGTH: 160,
+    ALT_TEXT_MAX_LENGTH: 125,
+    MAX_IMAGE_SIZE_KB: 200,
+    MIN_INTERNAL_LINKS: 3,
+    MAX_REDIRECT_HOPS: 2,
+    LCP_GOOD: 2500,
+    LCP_POOR: 4000,
+    FID_GOOD: 100,
+    FID_POOR: 300,
+    CLS_GOOD: 0.1,
+    CLS_POOR: 0.25,
+    MAX_CRAWL_PAGES: 500,
+    CRAWL_DELAY_MS: 200,
+    REQUEST_TIMEOUT_MS: 10000,
+};
+//# sourceMappingURL=types.js.map

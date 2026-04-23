@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__geo-mcp-server",
+        "hooks": [
+          { "type": "command", "command": "echo '🌐 GEO: Generative engine data updated. Run /seo-geo:dashboard for AI visibility overview.'" }
+        ]
+      }
+    ]
+  }
+}

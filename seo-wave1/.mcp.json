@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "seo-audit-server": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/seo-mcp-server/dist/index.js"],
+      "env": {
+        "GOOGLE_PAGESPEED_API_KEY": "AIzaSyBcGlqN7pYTXtObjDvms4sGwZX1rlQc-Yo",
+        "GOOGLE_SEARCH_CONSOLE_KEY": "AIzaSyBu43_eT9kFXklSEUL3g8v81Q5MJTVs3BU"
+      }
+    }
+  }
+}

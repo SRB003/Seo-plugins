@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__webflow",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🔍 SEO Check: Webflow content was modified. Consider running /seo-wave1:check on the affected page to verify SEO elements are intact.'"
+          }
+        ]
+      }
+    ]
+  }
+}

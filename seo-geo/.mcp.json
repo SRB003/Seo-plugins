@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "geo-mcp-server": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/geo-mcp-server/dist/index.js"],
+      "env": { "SERP_API_KEY": "bf7785b83a7aee2abe371f4fe492c24063c3c5e2349fc550dc19eafd28690093" }
+    }
+  }
+}

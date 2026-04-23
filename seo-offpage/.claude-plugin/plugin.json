@@ -1,0 +1,24 @@
+{
+  "name": "seo-offpage",
+  "version": "1.0.0",
+  "description": "SEO Offpage — Link Intelligence & Authority Building plugin. Backlink auditing, competitor backlink analysis, digital PR strategy, unlinked mention discovery, and link intersection analysis. Works with Webflow, Supabase, Gmail, and Google Calendar MCPs.",
+  "author": {
+    "name": "EBR Agency",
+    "url": "https://ebr.agency"
+  },
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "offpage-seo",
+    "backlink-audit",
+    "competitor-backlinks",
+    "digital-pr",
+    "unlinked-mentions",
+    "link-intersection",
+    "link-building",
+    "disavow",
+    "anchor-text",
+    "supabase",
+    "gmail"
+  ]
+}

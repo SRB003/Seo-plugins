@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__gmb-mcp-server",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📍 Local SEO: GBP data was accessed. Run /seo-gmb:audit to check profile health.'"
+          }
+        ]
+      }
+    ]
+  }
+}
