@@ -1,0 +1,153 @@
+{
+  "name": "ebr-seo-plugins",
+  "owner": {
+    "name": "EBR Agency",
+    "email": "hello@ebr.agency",
+    "url": "https://ebr.agency"
+  },
+  "metadata": {
+    "description": "EBR Agency's SEO plugin marketplace for Claude Code — a full-stack suite covering technical SEO, content engines, scaled reporting, link intelligence, local (GMB), answer-engine (AEO), and generative-engine (GEO) optimization.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "seo-wave1",
+      "source": "./seo-wave1",
+      "description": "Automated SEO Wave 1 — technical auditing, on-page optimization, schema markup, and bulk Webflow updates. Uses Webflow MCP, Supabase MCP, and custom SEO analysis tools.",
+      "version": "1.0.0",
+      "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+      "license": "MIT",
+      "category": "seo",
+      "keywords": [
+        "seo",
+        "technical-audit",
+        "webflow",
+        "on-page-optimization",
+        "schema-markup",
+        "supabase",
+        "automation"
+      ]
+    },
+    {
+      "name": "seo-wave2",
+      "source": "./seo-wave2",
+      "description": "SEO Wave 2 — Content Engine. Keyword research, content brief generation, AI content drafting, SEO scoring, and auto-publish to Webflow CMS. Works with Webflow, Supabase, Gmail, and Google Calendar MCPs.",
+      "version": "1.0.0",
+      "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+      "license": "MIT",
+      "category": "seo",
+      "keywords": [
+        "seo",
+        "keyword-research",
+        "content-strategy",
+        "content-brief",
+        "ai-writing",
+        "webflow-cms",
+        "supabase",
+        "content-calendar"
+      ]
+    },
+    {
+      "name": "seo-wave3",
+      "source": "./seo-wave3",
+      "description": "SEO Wave 3 — Scale & Report. Rank tracking, automated reporting, anomaly detection, outreach automation, and strategy recalibration. Works with Webflow, Supabase, Gmail, and Google Calendar MCPs.",
+      "version": "1.0.0",
+      "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+      "license": "MIT",
+      "category": "seo",
+      "keywords": [
+        "seo",
+        "rank-tracking",
+        "seo-reporting",
+        "anomaly-detection",
+        "backlink-monitoring",
+        "outreach",
+        "client-reports",
+        "supabase",
+        "gmail"
+      ]
+    },
+    {
+      "name": "seo-offpage",
+      "source": "./seo-offpage",
+      "description": "SEO Offpage — Link Intelligence & Authority Building. Backlink auditing, competitor backlink analysis, digital PR strategy, unlinked mention discovery, and link intersection analysis. Works with Webflow, Supabase, Gmail, and Google Calendar MCPs.",
+      "version": "1.0.0",
+      "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+      "license": "MIT",
+      "category": "seo",
+      "keywords": [
+        "seo",
+        "offpage-seo",
+        "backlink-audit",
+        "competitor-backlinks",
+        "digital-pr",
+        "unlinked-mentions",
+        "link-intersection",
+        "link-building",
+        "disavow",
+        "anchor-text",
+        "supabase",
+        "gmail"
+      ]
+    },
+    {
+      "name": "seo-gmb",
+      "source": "./seo-gmb",
+      "description": "Google Business Profile (GMB) optimization. Automated profile auditing, post scheduling, review management, citation consistency, local schema markup, and local ranking tracking. Works with Supabase, Gmail, and Google Calendar MCPs.",
+      "version": "1.0.0",
+      "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+      "license": "MIT",
+      "category": "local-seo",
+      "keywords": [
+        "gmb",
+        "google-business-profile",
+        "local-seo",
+        "local-pack",
+        "reviews",
+        "citations",
+        "nap-consistency",
+        "google-maps"
+      ]
+    },
+    {
+      "name": "seo-aeo",
+      "source": "./seo-aeo",
+      "description": "Answer Engine Optimization (AEO). Optimize content to be cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews, Gemini). Featured snippet targeting, answer-first content structuring, AI citation tracking, and E-E-A-T signal enhancement.",
+      "version": "1.0.0",
+      "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+      "license": "MIT",
+      "category": "ai-seo",
+      "keywords": [
+        "aeo",
+        "answer-engine",
+        "featured-snippets",
+        "ai-citations",
+        "zero-click",
+        "chatgpt",
+        "perplexity",
+        "google-ai-overviews",
+        "eeat"
+      ]
+    },
+    {
+      "name": "seo-geo",
+      "source": "./seo-geo",
+      "description": "Generative Engine Optimization (GEO). Optimize digital presence for AI-powered generative search engines (ChatGPT, Perplexity, Gemini, Google AI Mode). Semantic footprint expansion, citation-ready content, brand authority building, AI crawler access, and Share of Model tracking.",
+      "version": "1.0.0",
+      "author": { "name": "EBR Agency", "url": "https://ebr.agency" },
+      "license": "MIT",
+      "category": "ai-seo",
+      "keywords": [
+        "geo",
+        "generative-engine-optimization",
+        "llm-optimization",
+        "ai-seo",
+        "chatgpt-seo",
+        "perplexity",
+        "gemini",
+        "share-of-model",
+        "rag-optimization"
+      ]
+    }
+  ]
+}
